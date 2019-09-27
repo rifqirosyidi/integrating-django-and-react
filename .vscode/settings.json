@@ -1,16 +1,14 @@
 {
-    "workbench.settings.useSplitJSON": true,
-    "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.settings.editor": "json",
 
-    "editor.formatOnSave": true,
-    "python.linting.pep8Enabled": true,
-    "python.linting.pylintPath": "pylint",
-    "python.linting.pylintArgs": [
-        "--load-plugins",
-        "pylint_django"
-    ],
-    "python.linting.pylintEnabled": true,
-    "python.venvPath": "${workspaceFolder}/backend/venv/bin/python3",
-    "python.linting.pep8Args": ["--ignore=E501"]
-
+  "editor.formatOnSave": true,
+  "python.linting.pep8Enabled": false,
+  "python.linting.pylintPath": "${workspaceFolder}/backend/venv/bin/pylint",
+  "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+  "python.linting.pylintEnabled": true,
+  "python.venvPath": "${workspaceFolder}/backend/venv/bin/python3",
+  "python.linting.pep8Args": ["--ignore=E501"],
+  "python.pythonPath": "${workspaceFolder}/backend/venv/bin/python",
+  "python.linting.enabled": true
 }
